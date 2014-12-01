@@ -1,0 +1,82 @@
+<html>
+	<title> Cadastro </title>
+		<head> 
+		<link rel="stylesheet" type="text/css" href="estilo2.css"/>
+		<link type="text/css" rel="stylesheet" href="style2.css"> 
+		<meta charset="utf-8">
+		</head>
+	
+	<body>
+		<div id="header" style="position: fixed; top: 0px; left:0px;"> 
+			<h1 align="center" style="color: white;">Sistema de Gerenciamento de Estudo</h1>
+			<h3 align="center" style="color: white;">Novo? Então cadastre-se abaixo.</h3>
+		</div>
+
+		<center>
+			<div id="corpo"> 
+				<form method="GET" action="home.html">
+					<div style="color: white"> <b>Cadastro de Usuário:</b></div>
+					<table>
+							<div class="campo">
+							<label for="nome"></label></td>
+							<input type="text" name="nome" id="nome" style="width: 25em; height: 2.4em" required placeholder="Nome">
+							</div>
+						
+						 <div class="campo">
+							<label for="senha"></label>
+							<input type="password" name="senha" id="senha" style="width: 25em; height: 2.4em" required placeholder="Senha">
+						</div>
+						
+						 <div class="campo">
+							<label for="confirmarSenha"></label>
+							<input type="password" name="confirmarSenha" id="confirmarSenha" style="width: 25em; height: 2.4em" required placeholder="Confirmar Senha">
+						</div>
+
+						<div class="campo">
+							<label for="email"></label>
+							<input type="text" id="email" name="email" style="width: 25em; height: 2.4em" required placeholder="E-mail" />
+						</div>
+						
+						<div class="campo">						
+							<label for="mes"></label>
+							<select name="mes" style="width: 10.75em; height: 2.4em">
+							<option value="janeiro">Mês</option>
+							<option value="janeiro">Janeiro</option>
+							<option value="fevereiro">Fevereiro</option>
+							<option value="marco">Março</option>
+							<option value="abril">Abril</option>
+							<option value="maio">Maio</option>
+							<option value="junho">Junho</option>
+							<option value="julho">Julho</option>
+							<option value="agosto">Agosto</option>
+							<option value="setembro">Setembro</option>
+							<option value="outubro">Outubro</option>
+							<option value="novembro">Novembro</option>
+							<option value="dezembro">Dezembro</option>
+							</select>
+							
+							<label for="dia"></label>						
+							<input type="text" id="dia" name="dia" style="width: 5em; height: 2.4em" required placeholder="Dia"/>
+							
+							<label for="ano"></label>
+							<input type="text" id="ano" name="ano" style="width: 5em; height: 2.4em" required placeholder="Ano"/>
+						</div>
+						
+						<div class="campo">
+							
+							<label><input type="radio" name="sexo" value="masculino" checked> Masculino </label>
+							<label><input type="radio" name="sexo" value="feminino"> Feminino </label>
+						</div>
+						
+					</table>
+						<button type="submit" name="submit">Enviar</button>
+						<h3><a href="index.html">Voltar</a></h3>
+				</form>
+			</div>
+			<div id="footer">
+				<br><br><h4 align="center" style="color: white;">Desenvolvido por: Renato, Vanderson, Josieverton e Igor Bezerra.</h4>
+			</div>
+		</center>
+	</body>
+</html>
+		

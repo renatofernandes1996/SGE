@@ -1,0 +1,255 @@
+body {
+	background-image: url("logo.pngg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-color: #363636;
+	
+}
+
+a:link {text-decoration: none;color: white}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;color: white}
+a:hover {text-decoration: none;color: white}
+
+/*#login{
+width:380px;
+height:70px;
+border:4px solid;
+margin-bottom: 1px;
+margin-top: 1px;
+margin-left: 1px;
+margin-right: 1px;
+background-color: blue;
+}
+*/
+
+body div ul p {
+	color: white;
+	padding: 15px;
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div li, div h4 {
+    float: left;
+}
+
+div a:link, div a:visited {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: ##CFCFCF;
+    background-color: #828282;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 0px solid;
+	background-color: #20201f;	
+	background-size: 1415px 220px;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#header1{
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 0px solid;
+	background-color: #20201f;	
+	background-size: 1415px 220px;
+	box-shadow: #000 5px 2px 5px;
+}
+
+
+#corpo{
+	border: 0px solid;
+	width: 550px;
+	margin-top: 100px;
+	margin-left: 5%;
+	margin-right: 5% 	
+}
+
+#corpo1{
+	border: 0px solid;
+	width: 550px;
+	margin-top: 60px;
+	margin-left: 5%;
+	margin-right: 5%;	
+	background-color: #4F4F4F;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#corpo2{
+	border: 0px solid;
+	width: 550px;
+	margin-top: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-left: -210px;
+}
+
+#esquerda {
+	color: white;
+	font-family: Arial;
+	width: 500px;
+	height: 700px;
+	box-shadow: #000 5px 2px 5px;
+	background-color: #828282;	
+}
+
+#direita{
+	color: white;
+	font-family: Arial;
+	width: 500px;
+	height: 700px;
+	box-shadow: #000 5px 2px 5px;
+	background-color: #828282;
+}
+
+#desempenho{
+	color: white;
+	font-family: Arial;
+	width: 800px;
+	height: 350px;
+	box-shadow: #000 5px 2px 5px;
+	background-color: #828282;
+}
+
+#cadastrarHorario{
+	color: white;
+	font-family: Arial;
+	width: 800px;
+	height: 300px;
+	box-shadow: #000 5px 2px 5px;
+	background-color: #828282;
+}
+
+#esquerdaTitulo{
+	width: 500px;
+	height: 25px;
+	background-color: #696969;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#direitaTitulo{
+	width: 500px;
+	height: 25px;
+	background-color: #696969;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#tabelaCorpo{
+	display: block;
+	margin-top: -70px;
+	margin-right: -1000px;
+	margin-left: -1000px;
+
+}
+
+#footer{
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 0px;
+	border: 0px solid;
+	background-color: #20201f;	
+	background-size: 1700px 220px;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#renatoFr {
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 0px solid;
+	background-color: #20201f;	
+	background-size: 1415px 220px;
+	box-shadow: #000 5px 2px 5px;
+	
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 0px;
+	border: 0px solid;
+	background-color: #20201f;
+	box-shadow: #000 5px 2px 5px;
+}
+
+#CarinhaFeliz {
+	
+}
+
+
+* {
+    margin: 5;
+    padding: 5;
+}
+ 
+fieldset {
+    border: 0;
+}
+ 
+body, input, select, button {
+    font-family: Arial;
+    font-size: 1em;
+}
+ 
+.grupo:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.campo {
+    margin-bottom: -0.5em;
+}
+ 
+.campo label {
+    margin-bottom: 0.0em;
+    color: #666;	
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="url"], .campo input[type="tel"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);    
+}
+ 
+.campo select option {
+    padding-right: 1em;
+}
+
+.but {
+display: inline-block;
+background-color: #ccc;
+color: #444;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+
+.but-primary {
+color: #fff;
+background-color: #0068B4;
+}

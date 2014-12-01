@@ -1,0 +1,47 @@
+<html>
+	<title> SGE </title>
+	<head> 
+		<title> SGE </title>
+		<link rel="stylesheet" type="text/css" href="estilo2.css"/>		
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<div id="header" style="position: fixed; top: 0px; left:0px;"> 
+			<h2	align="center" style="color: white;">FALE CONOSCO!</h2>
+			<h4 align="center" style="color: white;"> <a href="index.html">Início</a></h4>
+			<h4 align="center" style="color: white;"> <a href="cadastrar.html">Cadastre-se</a></h4>
+						
+		</div>
+
+		<center><div id="corpo"> 
+			<form method="POST" action="contatoEnviado.html">
+				<div style="color: white"><b>Envie sua mensagem:</b></div>
+				<table>
+					<tr> <td style="color: white">Plataforma de organização de estudos.</td> </tr>
+					<div class="campo">
+						<label for="email"></label>
+						<input type="email" id="email" name="email" style="width: 25em; height: 2.4em" required placeholder="E-mail" />
+					</div>
+					
+					 <div class="campo">
+						<label for="assunto"></label>
+						<input type="text" name="assunto" id="assunto" style="width: 25em; height: 2.4em" required placeholder="Assunto">
+					</div>		
+
+					<div class="campo">
+						<label for="mensagem"></label>
+						<input type="text" name="mensagem" id="mensagem" style="width: 25em; height: 2.4em" required placeholder="Mensagem">
+					</div>	
+				</table>
+				<button type="submit" name="submit">Enviar mensagem</button>
+			</form>
+		</div>
+		
+		<div id="footer">
+			<br><br><h5 align="center" style="color: white;">Desenvolvido por: Renato Fernandes, Vanderson Menezes, Josieverton Bruno e Igor Bezerra.</h5>
+		</div>
+		</center>
+	</body>
+</html>
+		
